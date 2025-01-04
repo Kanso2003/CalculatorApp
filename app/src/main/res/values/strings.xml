@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">MidTermProject</string>
+    <string name="app_name">Calculator</string>
+
+        <string-array name="unit_categories">
+            <item>Miles To Kilometers</item>
+            <item>Pounds To Kilograms</item>
+            <item>Fahrenheit To Celsius</item>
+        </string-array>
+
 </resources>
+

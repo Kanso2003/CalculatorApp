@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UnitConversionActivity">
+            <!-- This activity will be opened from the MainActivity -->
+        </activity>
+
     </application>
 
 </manifest>

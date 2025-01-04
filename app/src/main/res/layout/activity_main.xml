@@ -7,20 +7,18 @@
     android:background="#000000"
     tools:context=".MainActivity">
 
-
     <!-- Menu Button for Calculation History -->
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/menuButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:backgroundTint="#FF9500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu"
+        android:contentDescription="Menu Button"
         android:layout_margin="16dp"
-        android:background="@drawable/ic_menu"
-        android:contentDescription="Menu"
+        android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
+    <!-- Expression Screen -->
     <TextView
         android:id="@+id/expression"
         android:layout_width="match_parent"
@@ -257,16 +255,17 @@
 
         <!-- Row 5: 0, ., = -->
         <Button
-            android:id="@+id/buttontemp"
+            android:id="@+id/buttonTemp"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_margin="8dp"
             android:layout_columnWeight="2"
             android:layout_rowWeight="1"
             android:backgroundTint="#3B3B3B"
-            android:text="F"
+            android:text="UC"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/button0"
             android:layout_width="0dp"
